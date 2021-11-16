@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="fonts/material-icon/css/material-design-iconic-font.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"
+    />
+    <link rel="stylesheet" href="css/contact.css" />
+    <script type="text/javascript" src="js/contact.js"></script>
+    <title>Contact Us | Smart Panda Baby Monitor</title>
+    <meta
+      name="description"
+      content="The best A.I. baby monitor to safeguard your baby’s safety from age 0-5+. A.I. detection for&nbsp;Covered Face, Danger Zone, Sleep Analytics, Auto Photo Capture, and lots more."
+    />
+    <meta
+      name="keywards"
+      content="home security cameras, smart panda baby monitor, shop baby monitor, worldwide shipping, latest technology, best baby monitor 2021, smart home devices"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navigation">
+      <ul class="navbar">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="products.html">Products</a>
+        </li>
+        <li>
+          <a href="#">Contact Us</a>
+        </li>
+        <li>
+          <a href="help.html">Help</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Hero -->
+    <div class="hero">
+      <img
+        src="images/contact_hero.png"
+        alt="contact center"
+        style="width: 100%; height: 20em"
+      />
+    </div>
+    <h2>Get in Touch</h2>
+    <p class="form-text">We love to hear from you</p>
+
+    <!-- Contact form -->
+    <div class="container">
+      <div class="form-wrap">
+        <form action="thankyou.html">
+          <div class="form-group">
+            <label for="full name">Full Name</label>
+            <input
+              type="text"
+              id="name"
+              name="full name"
+              aria-label="full name"
+              placeholder="Type your full name.."
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="text"
+              id="phone"
+              name="phone number"
+              aria-label="phone number"
+              placeholder="Type your phone number.."
+              onkeypress="numberValidation(event)"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              aria-label="email"
+              placeholder="Type your email.."
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="subject">Message</label>
+            <textarea
+              type="text"
+              id="subject"
+              name="subject"
+              aria-label="message"
+              placeholder="Type Your Message..."
+              cols="60"
+              rows="10"
+              required
+            ></textarea>
+          </div>
+          <button class="button" type="submit">Send</button>
+        </form>
+
+        <div class="log-in">
+          <p class="account">
+            Already have an account? <a href="#">Login Here</a>
+          </p>
+        </div>
+        <div class="social-login">
+          <span class="social-label">Login with</span>
+          <ul class="socials">
+            <li>
+              <a href="#"
+                ><i class="display-flex-center zmdi zmdi-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="display-flex-center zmdi zmdi-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="display-flex-center zmdi zmdi-google"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer  -->
+    <footer>
+      Copyright&copy; SmartPanda
+      <div class="content">
+        <a title="Privacy Policy" href="privacy.html">Privacy Policy</a>
+        <a title="Terms of Service" href="#">Terms of Service</a>
+      </div>
+    </footer>
+  </body>
+</html>
